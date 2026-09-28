@@ -1,0 +1,25 @@
+generated: '2026-09-28'
+source: https://www.bespinglobal.com/privacy-statement/privacy/
+method: probed
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://www.bespinglobal.com/privacy-statement/privacy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "정보주체는 「개인정보 보호법」 시행령 제41조 제1항에 따라 회사에 대해 언제든지 개인정보 열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다."
+        note: Provides right to access, correct, delete, and suspend processing of personal data.
+  data_retention:
+    evidence:
+      - source: https://www.bespinglobal.com/privacy-statement/privacy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "고객문의 (Contact Us) 보유 기간은 3년이며, 이는 개인정보보호법에 따라 정해진 기간입니다."
+        note: Retains customer inquiry data for 3 years.
+  incident_notification:
+    evidence:
+      - source: https://www.bespinglobal.com/privacy-statement/privacy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다."
+        note: Provides contact points for data breach redress.

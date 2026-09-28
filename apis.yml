@@ -1,23 +1,87 @@
 aid: bespinglobal
+
 name: Bespinglobal
-description: 'Bespinglobal is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://img.bespinglobal.com/wp-content/uploads/2026/04/bespinglobal_og.jpg
+
+description: Bespinglobal (베스핀글로벌) is a global AI‑enabled cloud services and consulting company offering end‑to‑end AI platforms, data‑ops, cloud
+  infrastructure, and managed services. It helps enterprises accelerate AI adoption, optimize cloud operations, and modernize digital workflows
+  through its AI Platform, DataOps, Cloud MSP, and automation solutions.
+
 url: https://raw.githubusercontent.com/api-evangelist/bespinglobal/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
-- Company
-apis: []
+- Cloud
+- AI
+- Consulting
+- Services
+- Global
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/bespinglobal-plans-pricing.yml
+- type: MCPServer
+  url: mcp/bespinglobal-mcp.yml
+- type: Hosts
+  url: hosts/bespinglobal-hosts.yml
+- type: Vendors
+  url: vendors/bespinglobal-vendors.yml
+- type: Security
+  url: https://blog.bespinglobal.com/security
+- type: Newsroom
+  url: https://www.bespinglobal.com/category/newsroom/
+- type: DomainSecurity
+  url: security/bespinglobal-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bespinglobal
+  url: https://www.bespinglobal.com
+- type: Documentation
+  url: https://www.bespinglobal.com/helpnow
+- type: Blog
+  url: https://www.bespinglobal.com/blog
+- type: GettingStarted
+  url: https://www.bespinglobal.com/helpnow
+- type: Support
+  url: https://www.bespinglobal.com/contact
+- type: PrivacyPolicy
+  url: https://www.bespinglobal.com/privacy
+
+apis:
+- name: AI Platform
+  description: AI Platform provides AI model deployment, monitoring, and management services.
+  humanURL: https://www.bespinglobal.com/helpnow/ai-platform/
+  baseURL: null
+  aid: bespinglobal:ai-platform
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on the provider's API or documentation sites.
+  evidence:
+  - url: https://api.bespinglobal.com/openapi.json
+    status: 0
+  checked: '2026-09-27'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

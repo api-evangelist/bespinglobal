@@ -1,0 +1,14 @@
+{
+  "repo": "bespinglobal",
+  "feeds": [
+    {
+      "source": "https://www.bespinglobal.com/helpnow",
+      "feed_url": "https://www.bespinglobal.com/feed/",
+      "title": "",
+      "saved": 7,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 7,
+  "fetched": "2026-10-03T12:30:02Z"
+}

@@ -43,6 +43,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Pricing
+  url: https://www.bespinglobal.com/newsroom/news-pr-plan-7layertotal-260813/
 - type: Plans
   url: plans/bespinglobal-plans-pricing.yml
 - type: MCPServer

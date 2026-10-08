@@ -14,3 +14,16 @@ plans:
   price: 50
   description: AI 기반 실시간 위협 탐지와 WAF·관제 등 핵심 보안 기능을 통합해 월 50만원으로 제공, 24시간 빈틈없는 클라우드 보안 환경을 실현하는 올인원 보안 서비스
 docs: https://www.bespinglobal.com/newsroom/news-pr-plan-7layertotal-260813/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Cloud Security
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []

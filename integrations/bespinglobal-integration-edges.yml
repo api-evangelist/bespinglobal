@@ -1,0 +1,37 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=3bb97b9d-3174-4f97-89df-648e625cc570
+  listing_count: 2
+  apps:
+  - OpsNow
+  - Cloud Operator
+  seller_name: Bespin Global
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-swhuafanigzhy
+  listing_count: 1
+  apps:
+  - OpsNow (AlertNow Product)
+  seller_name: Bespin Global Inc
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
